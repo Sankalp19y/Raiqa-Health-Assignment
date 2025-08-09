@@ -1,0 +1,163 @@
+/* Custom styling for a new dark theme */
+body {
+  background-color: darkslategray;
+  font-family: 'Roboto', sans-serif;
+  color: gainsboro;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.main-title {
+  font-size: 3em;
+  font-weight: 300;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: gainsboro;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Common card styling */
+.card {
+  background-color: slategray;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  padding: 25px;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-weight: 400;
+  color: gainsboro;
+  border-bottom: 1px solid cadetblue;
+  padding-bottom: 10px;
+}
+
+/* Counter section styling */
+.counter-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.counter-controls button {
+  background-color: teal; /* Teal color */
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 2em;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.counter-controls button:hover {
+  background-color: darkcyan;
+  transform: scale(1.1);
+}
+
+.counter-value {
+  font-size: 3em;
+  font-weight: bold;
+  color: gainsboro;
+}
+
+.add-button {
+  background-color: royalblue; /* Blue for the add button */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  width: 100%;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+
+.add-button:hover {
+  background-color: steelblue;
+}
+
+/* List section styling */
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.list-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.list-buttons button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.reset-button {
+  background-color: indianred; /* Red for reset */
+}
+
+.reset-button:hover {
+  background-color: firebrick;
+}
+
+.sort-button {
+  background-color: dimgray; /* Gray for sort */
+}
+
+.sort-button:hover {
+  background-color: gray;
+}
+
+.values-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  background-color: steelblue; /* Darker list item background */
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: gainsboro;
+  text-align: center;
+}
+
+.total-count {
+  margin-top: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: gainsboro;
+  text-align: left;
+}
